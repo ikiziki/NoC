@@ -10,6 +10,7 @@ function draw() {
 	
 }
 
-function resizeWindow() {
-	
+function windowResized() {
+	resizeCanvas(windowWidth, windowHeight);
 }
+
