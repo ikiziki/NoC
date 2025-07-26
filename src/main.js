@@ -2,9 +2,6 @@ function setup() {
 	createCanvas(windowWidth, windowHeight)
 }
 
-function update() {
-}
-
 function draw() {
 }
 
