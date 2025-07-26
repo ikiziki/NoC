@@ -5,9 +5,12 @@ function setup() {
   walker = new Walker();
 }
 
+function update() {
+	walker.step();
+}
+
 function draw() {
   // background(220); // Clear screen each frame
-  walker.step();
   walker.draw();
 }
 
